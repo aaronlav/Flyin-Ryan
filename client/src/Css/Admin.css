@@ -1,0 +1,223 @@
+#admin-wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+
+#admin-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#admin-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    font-size: 5vh;
+    border-bottom: 2px solid black;
+}
+
+#flyin-admin-wrapper{
+    width: 100%;
+    display: flex;
+    justify-self: center;
+    padding-top: 15px;
+    position: fixed;
+}
+
+#flyin-admin {
+    width: 20vw;
+}
+
+#admin-midSection{
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    width: 100vw;
+}
+
+#admin-sidebarWrapper {
+    height: 100%;
+    width: 20vw;
+    background-color: #3e6a99;
+    color: white;
+    font-size: 2vw;
+}
+
+#admin-sidebar {
+    height: 80%;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#admin-contentWrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: scroll;
+    padding-top: 3vh
+
+}
+
+#admin-content {
+    display: flex;
+    height: 100%;
+    width: 75vw;
+
+}
+
+#admin-questions{
+    display: flex;
+    flex-direction: column;
+    font-size: 2vw;
+
+}
+
+.adminQuestionTitle{
+    text-decoration: underline;
+}
+
+.adminOption{
+    padding-left: 15px;
+}
+
+
+#coreValueDiv {
+    padding-left: 8px;
+}
+
+#adminEditWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.664);
+    z-index: 1000;
+    position: absolute;
+}
+
+#adminEditModal {
+    height: 60vh;
+    width: 60vw;
+    background-color: white;
+}
+
+#adminModalHeader{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 95%;
+    margin: 15px;
+    font-size: 4vh;
+}
+
+#adminModalCVTitle{
+    font-size: 3vh;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+#adminModalQuestTitle{
+    font-size: 3vh;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#admin-user-display{
+    font-size: 2vw;
+}
+
+#adminCVContainer{
+    display: flex;
+    flex-direction: column;
+    height: 78%;
+    width: 94%;
+    overflow: scroll;
+    padding-left: 30px;
+
+}
+
+#adminModalContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50vh;
+    overflow: scroll;
+    font-size: 2vw;
+}
+
+#adminTextAnswers{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.admin-options{
+    margin-left: 30px;
+}
+
+#updateButtonWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 4vh;
+    width: 7vw;
+    background-color: #696b6d;
+    color: white;
+}
+
+#updateButtonWrapperClick{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 4vh;
+    width: 7vw;
+    background-color: #3e6a99;
+    color: white;
+    cursor: pointer;
+}
+
+#adminEditValue{
+    font-size: 2.5vh;
+    padding: 10px;
+}
+
+.editButtonWrapper{
+    cursor: pointer;
+    border: 1px solid black;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #3e6a99;
+    color: white;
+}
+
+.adminEditButton{
+    text-align: center;
+}
+
+#emptyWrapper{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.emptyValues{
+    justify-self: center;
+    align-self: center;
+}
+
+#name, #age {
+    display: flex
+}
